@@ -1,5 +1,6 @@
 # experimental design
 
+* measurement
 * variable
 * observation
 * group
