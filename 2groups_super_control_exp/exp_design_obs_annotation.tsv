@@ -1,10 +1,10 @@
-observation	group
-observation1	treatment
-observation2	treatment
-observation3	treatment
-observation4	treatment
-observation5	treatment
-observation6	control
-observation7	control
-observation8	control
-observation9	control
+observation	group	supergroup
+observation1	treatment	group1
+observation2	treatment	group1
+observation3	treatment	group2
+observation4	treatment	group2
+observation5	treatment	group2
+observation6	control	group1
+observation7	control	group1
+observation8	control	group2
+observation9	control	group2
