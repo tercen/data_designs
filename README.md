@@ -10,7 +10,8 @@ A catalog of experimental design patterns for the wizard in tercen
 * Pair
 * Supergroup
 
-
+|exp design|example
+| ------  | --- |
 |simple_exp|pca, flowsom, umap, tsne|
 |simple_series_exp|ETS, DRC
 |groups_exp|anova|
