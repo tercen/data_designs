@@ -1,9 +1,9 @@
 # experimental design
 
-* measurement
-* variable
-* observation
+* Measurement
+* Variable
+* Observation
 
 # Examples
 
-* pca
+* PCA, Log Cutoff, TSNE
