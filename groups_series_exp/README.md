@@ -3,11 +3,10 @@
 * Measurement
 * Variable
 * Observation
+* Series
 * Group
 
 
 # Examples
 
-* Anova on one cell line
-
-* T-Test
+* DRC

@@ -33,7 +33,7 @@ data <- as_tibble(data_gen1$xdata) %>%
   mutate(Variable = unlist(lapply(seq(num_vars), FUN = function(x) { rep(x, num_obs) }))) %>%
   select(Observation, Variable, Group, Measurement)
 
-write.table(data, "2groups_control_exp/2groups_control_exp.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "2groups_pairing_control_exp/2groups_pairing_control_exp.tsv", sep = "\t", row.names = FALSE)
 
 
 

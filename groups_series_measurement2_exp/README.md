@@ -1,12 +1,12 @@
 # experimental design
 
 * Measurement
+* Measurement2
+* Series
 * Variable
 * Observation
 * Group
-  + control, treatment
-
 
 # Examples
 
-* ttest on one cell line
+* ETS

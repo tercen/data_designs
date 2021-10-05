@@ -1,11 +1,13 @@
 # experimental design
 
 * Measurement
-* Measurement2
-* Series
 * Variable
 * Observation
+* Group
+* Supergroup
+* Control
+
 
 # Examples
 
-* ETS
+* Anova on two cell lines
