@@ -1,13 +1,13 @@
 # experimental design
 
-* measurement
-* variable
-* observation
-* group
+* Measurement
+* Variable
+* Observation
+* Group
 
 
 # Examples
 
-* anova on one cell ine
+* Anova on one cell line
 
-* ttest
+* T-Test
