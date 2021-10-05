@@ -1,12 +1,12 @@
 # experimental design
 
-* measurement
-* variable
-* observation
-* group
-* supergroup
+* Measurement
+* Variable
+* Observation
+* Group
+* Supergroup
 
 
 # Examples
 
-* anova on two cell lines
+* Anova on two cell lines
