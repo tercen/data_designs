@@ -1,11 +1,11 @@
 # experimental design
 
-* measurement
-* variable
-* observation
-* group
+* Measurement
+* Variable
+* Observation
+* Group
    + control, treatment
-* pair
+* Pair
 
 # Examples
 

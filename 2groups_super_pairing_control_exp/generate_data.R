@@ -8,12 +8,14 @@ group      <- "Group"
 observation<- "Observation"
 variable   <- "Variable" 
 measurement<- "Measurement"
+pair       <- "Pair"
 
 num_controls   <- 8
 num_treatments <- 8
 num_pairs      <- 2
 num_obs        <- num_controls + num_treatments
 num_vars       <- 1000
+num_super_groups <- 2
 
 var_name  <- sprintf(paste0("variable%0", nchar(as.character(num_vars)), "d"), 1:num_vars)
 obs_name  <- sprintf(paste0("observation%0", nchar(as.character(num_obs)), "d"), 1:num_obs)
@@ -26,18 +28,22 @@ sdn     <- 0.4
 rseed   <- 42
 
 # generate fully synthetic data
-data_gen1 <- madsim(mdata = NULL, n = num_vars, ratio = 0, fparams, dparams, sdn, rseed)
-data <- as_tibble(data_gen1$xdata) %>% 
-  pivot_longer(everything(), names_to = observation, values_to = measurement) %>%
-  mutate(Group = case_when(
-    startsWith(Observation, "cont") ~ "control",
-    startsWith(Observation, "test") ~ "treatment")) %>%
-  mutate(Observation = rep(obs_name, num_vars)) %>%
-  mutate(Variable = unlist(lapply(seq(num_vars), FUN = function(x) { rep(x, num_obs) }))) %>%
-  mutate(Pair = rep(pair_name, num_vars)) %>%
-  select(Observation, Variable, Group, Pair, Measurement)
+get_group_data <- function(supergroup) {
+  data_gen1 <- madsim(mdata = NULL, n = num_vars, ratio = 0, fparams, dparams, sdn, rseed)
+  data <- as_tibble(data_gen1$xdata) %>% 
+    pivot_longer(everything(), names_to = observation, values_to = measurement) %>%
+    mutate(Group = case_when(
+      startsWith(Observation, "cont") ~ "control",
+      startsWith(Observation, "test") ~ "treatment")) %>%
+    mutate(Observation = rep(obs_name, num_vars)) %>%
+    mutate(Variable = unlist(lapply(seq(num_vars), FUN = function(x) { rep(x, num_obs) }))) %>%
+    mutate(Pair = rep(pair_name, num_vars)) %>%
+    mutate(Supergroup = paste0("supergroup", supergroup)) %>%
+    select(Observation, Variable, Group, Supergroup, Pair, Measurement)
+}
 
-write.table(data, "2groups_pairing_control_exp/2groups_pairing_control_exp.tsv", sep = "\t", row.names = FALSE)
+data <- do.call(rbind, lapply(seq(num_super_groups), FUN = function(x) {get_group_data(x)}))
+write.table(data, "2groups_super_pairing_control_exp/2groups_super_pairing_control_exp.tsv", sep = "\t", row.names = FALSE)
 
 
 

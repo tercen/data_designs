@@ -5,9 +5,8 @@
 * Observation
 * Group
 * Supergroup
-* Control
 
 
 # Examples
 
-* Anova on two cell lines
+* MTvC
