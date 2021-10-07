@@ -3,10 +3,8 @@
 * Measurement
 * Variable
 * Observation
-* Group
-   + control, treatment
-* Pair
+* Series
 
 # Examples
 
-* ttest on cell line with pairing
+* PTK Kinetic QC

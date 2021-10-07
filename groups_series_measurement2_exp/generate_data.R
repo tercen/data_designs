@@ -8,10 +8,10 @@ num_series <- 5
 total_obs  <- num_vars * num_groups * num_series
 
 # generate data
-var_vals    <- sprintf(paste0("variable%0", nchar(as.character(num_vars)), "d"), 1:num_vars)
+var_vals    <- sprintf(paste0("var%0", nchar(as.character(num_vars)), "d"), 1:num_vars)
 group_vals  <- sort(rep(sprintf(paste0("group%0", nchar(as.character(num_obs)), "d"), 1:num_groups), num_vars))
 series_vals <- unlist(lapply(seq(num_series), FUN = function(x) { rep(x, num_vars*num_groups) }) )
-obs_vals    <- sprintf(paste0("observation%0", nchar(as.character(total_obs)), "d"), 1:total_obs)
+obs_vals    <- sprintf(paste0("obs%0", nchar(as.character(total_obs)), "d"), 1:total_obs)
 
 data <- data.frame(Variable = var_vals,
                    Observation = obs_vals,
