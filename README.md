@@ -13,6 +13,7 @@ A catalog of experimental design patterns for the wizard in tercen
 |exp design|example
 | ------  | --- |
 |simple_exp|pca, flowsom, umap, tsne|
+|simple_measurement2_exp|minus
 |series_exp|PTK Kinetic QC
 |groups_series_exp|DRC
 |groups_series_measurement2_exp|ETS
