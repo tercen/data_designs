@@ -17,6 +17,7 @@ A catalog of experimental design patterns for the wizard in tercen
 |series_exp|PTK Kinetic QC
 |groups_series_exp|DRC
 |groups_series_measurement2_exp|ETS
+|groups_pairing_control_flag_exp| Anova&Dunnett
 |groups_super_exp|anova1way, anova2way, linear_mixed_model1
 |groups_super_control_exp| MTvC
 |2groups_super_pairing_control_exp| ttest, ttestpaired, lfc
