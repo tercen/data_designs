@@ -5,7 +5,6 @@
 * Observation
 * Pair
 * Group
-* Control.flag
 
 # Examples
 

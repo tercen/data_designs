@@ -21,6 +21,6 @@ data <- data.frame(Observation = obs_vals,
                    Measurement = meas_vals,
                    Pair = pair_vals,
                    Group = group_vals)  %>% 
-           mutate(Control.flag = if_else(Group == "group1", "true", ""))
+           mutate(Group = if_else(Group == "group1", "control", Group))
 
-write.table(data, "groups_pairing_control_flag_exp/groups_pairing_control_flag_exp.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "groups_pairing_control_exp/groups_pairing_control_exp.tsv", sep = "\t", row.names = FALSE)
