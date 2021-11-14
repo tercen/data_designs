@@ -20,4 +20,4 @@ data <- data.frame(Variable = var_vals,
                    Measurement = runif(total_obs, 0, 1), 
                    Measurement2 = runif(total_obs, 0, 0.1))
 
-write.table(data, "groups_series_measurement2_design/groups_series_measurement2_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c06_groups_series_measurement2_design/c06_groups_series_measurement2_design.tsv", sep = "\t", row.names = FALSE)

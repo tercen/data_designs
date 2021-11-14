@@ -44,7 +44,7 @@ data <- do.call(rbind, lapply(seq(num_super_groups), FUN = function(x) {get_grou
   mutate(Observation = sprintf(paste0("obs%0", nchar(as.character(n())), "d"), 1:n())) %>%
   select(Observation, Variable, Group, Supergroup, Pair, Measurement)
 
-write.table(data, "2groups_super_pairing_control_design/2groups_super_pairing_control_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c07_super_2group_control_pair_design/c07_super_2group_control_pair_design.tsv", sep = "\t", row.names = FALSE)
 
 
 

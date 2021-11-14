@@ -11,17 +11,18 @@ The folder name is prefixed with the cardinality (e.g. c03 is cardinality three)
 * Observation
 * Series
 * Group
+    + control, treatment
 * Pair
 * Supergroup
 
-|data design                         |example operators
-| -----------------------------------| ------------- |
+|data design                             |example operators
+| -----------------------------------    | ------------- |
 |c03_simple_design                       |pca, flowsom, umap, tsne
 |c04_simple_measurement2_design          |minus
 |c05_groups_series_design                |DRC, STK Kinetic QC
-|c05_groups_super_design                 |anova1way, anova2way, linear_mixed_model1
+|c05_super_groups_design                 |anova1way, anova2way, linear_mixed_model1
 |c06_groups_series_measurement2_design   |ETS, PTK Kinetic QC
 |c06_groups_pairing_control_design       |Anova&Dunnett
-|c06_groups_super_series_design          |UKA
-|c06_groups_super_control_design         |MTvC
-|c07_2groups_super_pairing_control_design|ttest, ttestpaired, lfc
+|c06_super_groups_series_design          |UKA
+|c06_super_groups_control_design         |MTvC
+|c07_super_2group_control_pair_design |ttest, ttestpaired, lfc
