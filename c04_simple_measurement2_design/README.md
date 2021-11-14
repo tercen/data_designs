@@ -1,12 +1,10 @@
-# experimental design
+# data design
 
 * Measurement
+* Measurement2
 * Variable
 * Observation
-* Series
-* Group
-
 
 # Examples
 
-* DRC
+* Minus

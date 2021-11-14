@@ -1,4 +1,4 @@
-# experimental design
+# data design
 
 * Measurement
 * Measurement2

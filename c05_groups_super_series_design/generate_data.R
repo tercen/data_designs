@@ -24,4 +24,4 @@ data <- data.frame(ID = ID_vals,
                    Series = series_vals,
                    Measurement = runif(total_obs, 0, 1))
 
-write.table(data, "groups_super_series_exp/groups_super_series_exp.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "groups_super_series_design/groups_super_series_design.tsv", sep = "\t", row.names = FALSE)

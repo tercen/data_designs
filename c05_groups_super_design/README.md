@@ -1,11 +1,12 @@
-# experimental design
+# data design
 
 * Measurement
 * Variable
 * Observation
-* Pair
 * Group
+* Supergroup
+
 
 # Examples
 
-* Anova & Dunnett
+* Anova on two cell lines

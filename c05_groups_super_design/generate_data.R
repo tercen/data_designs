@@ -24,4 +24,4 @@ get_group_data <- function(supergroup) {
 }
 
 data <- do.call(rbind, lapply(seq(num_super_groups), FUN = function(x) {get_group_data(x)}))
-write.table(data, "groups_super_exp/groups_super_exp.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "groups_super_design/groups_super_design.tsv", sep = "\t", row.names = FALSE)

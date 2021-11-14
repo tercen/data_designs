@@ -1,12 +1,11 @@
-# experimental design
+# data design
 
 * Measurement
 * Variable
 * Observation
+* Pair
 * Group
-* Supergroup
-
 
 # Examples
 
-* MTvC
+* Anova & Dunnett

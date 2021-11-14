@@ -1,10 +1,12 @@
-# experimental design
+# data design
 
 * Measurement
 * Variable
 * Observation
-* Series
+* Group
+* Supergroup
+
 
 # Examples
 
-* PTK Kinetic QC
+* MTvC
