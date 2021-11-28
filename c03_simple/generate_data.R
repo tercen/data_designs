@@ -15,4 +15,4 @@ data <- data.frame(Observation = obs_vals,
                    Variable = var_vals, 
                    Measurement = runif(total_vals, meas_min_val, meas_max_val))
 
-write.table(data, "c03_simple_design/c03_simple_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c03_simple/c03_simple.tsv", sep = "\t", row.names = FALSE)

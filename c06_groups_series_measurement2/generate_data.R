@@ -17,6 +17,7 @@ data <- data.frame(Variable = var_vals,
                    Observation = obs_vals,
                    Group = group_vals,
                    Series = series_vals,
-                   Measurement = runif(total_obs, 0, 1))
+                   Measurement = runif(total_obs, 0, 1), 
+                   Measurement2 = runif(total_obs, 0, 0.1))
 
-write.table(data, "c05_groups_series_design/c05_groups_series_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c06_groups_series_measurement2/c06_groups_series_measurement2.tsv", sep = "\t", row.names = FALSE)

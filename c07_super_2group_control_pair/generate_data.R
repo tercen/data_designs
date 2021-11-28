@@ -12,7 +12,7 @@ pair       <- "Pair"
 
 num_controls   <- 4
 num_treatments <- 4
-num_pairs      <- 2
+num_pairs      <- 4
 num_obs        <- num_controls + num_treatments
 num_vars       <- 100
 num_super_groups <- 2
@@ -27,24 +27,28 @@ rseed   <- 42
 
 # generate fully synthetic data
 get_group_data <- function(supergroup) {
-  data_gen1 <- madsim(mdata = NULL, n = num_vars, ratio = 0, fparams, dparams, sdn, rseed)
-  as_tibble(data_gen1$xdata) %>% 
-    pivot_longer(everything(), names_to = observation, values_to = measurement) %>%
+  data_gen <- madsim(mdata = NULL, n = num_vars, ratio = 0, fparams, dparams, sdn, rseed)
+  data_gen$xdata %>% 
+    as_tibble() %>%
+    mutate(Variable = sprintf(paste0("var%0", nchar(as.character(num_vars)), "d"), 1:nrow(.)))%>%
+    pivot_longer(c(everything(), -Variable), names_to = observation, values_to = measurement) %>%
     mutate(Group = case_when(
       startsWith(Observation, "cont") ~ "control",
       startsWith(Observation, "test") ~ "treatment")) %>%
-    mutate(Variable = unlist(lapply(seq(num_vars), FUN = function(x) { rep(sprintf(paste0("var%0", nchar(as.character(num_vars)), "d"), x), num_obs) }))) %>%
     mutate(Pair = rep(pair_name, num_vars)) %>%
     mutate(Supergroup = paste0("supergroup", supergroup)) %>%
-    distinct(Variable, Group, Supergroup, Pair, .keep_all = TRUE) %>%
     select(Variable, Group, Supergroup, Pair, Measurement)
 }
 
+Observation <- rep(sprintf(paste0("obs%0", nchar(as.character(num_obs)), "d"), 1:(num_obs*num_super_groups)), num_vars)
+
+
 data <- do.call(rbind, lapply(seq(num_super_groups), FUN = function(x) {get_group_data(x)})) %>%
-  mutate(Observation = sprintf(paste0("obs%0", nchar(as.character(n())), "d"), 1:n())) %>%
+  arrange(Variable) %>%
+  mutate(Observation = Observation) %>%
   select(Observation, Variable, Group, Supergroup, Pair, Measurement)
 
-write.table(data, "c07_super_2group_control_pair_design/c07_super_2group_control_pair_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c07_super_2group_control_pair/c07_super_2group_control_pair.tsv", sep = "\t", row.names = FALSE)
 
 
 

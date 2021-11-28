@@ -1,0 +1,42 @@
+library(sjPlot)
+library(ggplot2)
+library(MASS)
+library(brms)
+library(plyr)
+library(gridExtra)
+
+# data generation function
+gen_design <- function(n_participant, n_stimulus, n_levels){
+  participants <- rep(1:n_participant, each = n_stimulus)
+  #stims <- rep(1:n_stimulus, times = n_participant)
+  x <- c()
+  stims <- as.vector(sapply(seq(1, n_participant), function(x) sample(seq(1,n_stimulus), size = n_stimulus)))
+  for(i in 1:n_participant){
+    x <- append(x, seq(0,(n_levels-1)))
+    #x <- append(x, sapply(seq(1,n_stimulus), function(x) sample(seq(1,n_levels), size = n_levels)))
+  }
+  expdesign <- data.frame(participant = participants, stimulus = stims, x = x)
+  return(expdesign)
+}
+
+sp <- list(n_participant = 30, n_stimulus = 20, n_levels =2) # data with 30 participants each seeing 20 stimuli (which will not be modelled in this example) with 2 levels (10 obs per participant per cell)
+exp1 <- gen_design(n_participant = sp$n_participant, n_stimulus = sp$n_stimulus, n_levels = sp$n_levels)
+
+ll_priors <- c(set_prior("normal(10,1)", class = "Intercept"), 
+                set_prior("normal(1,1)", class = "b"),
+                set_prior("normal(5,1)", class = "sd", coef = "Intercept", group = "participant"),
+                set_prior("normal(2,1)", class = "sd", coef = "x", group = "participant"),
+                set_prior("normal(10,1)", class = "sigma"))
+
+y <- rnorm(1:nrow(exp1), 1, 0) # just some arbitrary values for this column
+m1 <- brm(y ~ x + (1 + x | participant), data = exp1, sample_prior = "only", prior = all_priors)
+
+new_y_sum  <- predict(m1)[,1]
+new_y<- predict(m1, newdata = exp1, summary = F, nsamples = 1)[1,]
+exp1$new_y_sum <- new_y_sum
+exp1$new_y <- new_y
+m1_new_sum <- brm(new_y_sum ~ x + (1 + x | participant), data = exp1, chains = 4, cores = 4)
+m1_new <- brm(new_y ~ x + (1 + x | participant), data = exp1, chains = 4, cores = 4)
+
+
+

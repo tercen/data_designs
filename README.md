@@ -17,12 +17,12 @@ The folder name is prefixed with the cardinality (e.g. c03 is cardinality three)
 
 |data design                             |example operators
 | -----------------------------------    | ------------- |
-|c03_simple_design                       |pca, flowsom, umap, tsne
-|c04_simple_measurement2_design          |minus
-|c05_groups_series_design                |DRC, STK Kinetic QC
-|c05_super_groups_design                 |anova1way, anova2way, linear_mixed_model1
-|c06_groups_series_measurement2_design   |ETS, PTK Kinetic QC
-|c06_groups_pairing_control_design       |Anova&Dunnett
-|c06_super_groups_series_design          |UKA
-|c06_super_groups_control_design         |MTvC
-|c07_super_2group_control_pair_design |ttest, ttestpaired, lfc
+|c03_simple                              |pca, flowsom, umap, tsne
+|c04_measurement2                        |minus
+|c05_groups_series                       |DRC, STK Kinetic QC
+|c05_super_groups                        |anova1way, anova2way, linear_mixed_model1
+|c06_groups_series_measurement2          |ETS, PTK Kinetic QC
+|c06_groups_pairing_control              |Anova&Dunnett
+|c06_super_groups_series                 |UKA
+|c06_super_groups_control                |MTvC
+|c07_super_2group_control_pair           |ttest, ttestpaired, lfc
