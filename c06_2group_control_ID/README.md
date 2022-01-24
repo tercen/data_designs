@@ -1,13 +1,11 @@
 # data design
 
 * Measurement
-* Variable
+* ID
 * Observation
 * Group
     + control, treatment
-* Spergroup
-* Pair
 
 # Examples
 
-* ttest on cell lines with pairing
+* UKA
