@@ -1,11 +1,9 @@
 # experimental design
 
 * Measurement
-* Variable
+* ID
 * Observation
-* Series
 * Group
-* Supergroup
 
 
 # Examples

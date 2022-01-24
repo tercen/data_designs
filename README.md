@@ -23,6 +23,6 @@ The folder name is prefixed with the cardinality (e.g. c03 is cardinality three)
 |c05_super_groups                        |anova1way, anova2way, linear_mixed_model1
 |c06_groups_series_measurement2          |ETS, PTK Kinetic QC
 |c06_groups_pairing_control              |Anova&Dunnett
-|c06_super_groups_series                 |UKA
+|c06_2groups_control_ID                  |UKA
 |c06_super_groups_control                |MTvC, ttest
 |c07_super_2group_control_pair           |ttestpaired, lfc
