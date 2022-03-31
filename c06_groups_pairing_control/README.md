@@ -8,4 +8,4 @@
 
 # Examples
 
-* Anova & Dunnett
+* MTvC, Anova & Dunnett
