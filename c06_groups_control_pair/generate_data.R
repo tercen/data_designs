@@ -23,4 +23,4 @@ data <- data.frame(Observation = obs_vals,
                    Group = group_vals)  %>% 
            mutate(Group = if_else(Group == "group1", "control", Group))
 
-write.table(data, "c06_groups_pairing_control_design/c06_groups_pairing_control_design.tsv", sep = "\t", row.names = FALSE)
+write.table(data, "c06_groups_pairing_control_design/c06_groups_control_pair.tsv", sep = "\t", row.names = FALSE)
