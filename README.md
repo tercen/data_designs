@@ -24,5 +24,5 @@ The folder name is prefixed with the cardinality (e.g. c03 is cardinality three)
 |c06_groups_series_measurement2          |ETS, PTK Kinetic QC
 |c06_groups_pairing_control              |MTvC, Anova&Dunnett
 |c06_2groups_control_ID                  |UKA
-|c06_super_groups_control                |
-|c07_super_2group_control_pair           |ttest,ttestpaired, lfc
+|c06_super_groups_control                |ttest
+|c07_super_2group_control_pair           |ttestpaired, lfc
