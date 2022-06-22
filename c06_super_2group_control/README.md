@@ -5,7 +5,7 @@
 * Observation
 * Group
     + control, treatment
-* Spergroup
+* Supergroup
 * Pair
 
 # Examples
