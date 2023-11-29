@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_2group_control_ID/c06_2group_control_ID.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c06_2group_control_ID.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "3",
+ "dataUri": "a5/92/a59222e54d44574241813eb2d7d6f045d7af2876c659dda9528e01678f18da63",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

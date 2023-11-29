@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_super_groups_measurement2/c06_super_groups_measurement2.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c06_super_groups_measurement2.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "8",
+ "dataUri": "98/5a/985aef6fd0f2884bc27d5adb70a1c8e0425cf9104fdd02dc17a96e9b44cf6e7c",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

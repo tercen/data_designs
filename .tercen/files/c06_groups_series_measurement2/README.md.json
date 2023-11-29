@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_groups_series_measurement2/README.md",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "README.md",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "6",
+ "dataUri": "75/25/75254d6c32f2e19840718ebeb399d916ba9cf698666562cadbd50df856ad53a8",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

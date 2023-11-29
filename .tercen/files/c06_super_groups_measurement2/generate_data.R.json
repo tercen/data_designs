@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_super_groups_measurement2/generate_data.R",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "generate_data.R",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "8",
+ "dataUri": "e9/c1/e9c142198a84e458a7c3ed06e018668cf96597d408c5ea34bc6f9f4e174911d3",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_groups_series_measurement2/c06_groups_series_measurement2.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c06_groups_series_measurement2.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "6",
+ "dataUri": "1d/6b/1d6be19814cedf4624f4d68cda2d8a324f8f8f55297dc0a6f60057e292a92b72",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

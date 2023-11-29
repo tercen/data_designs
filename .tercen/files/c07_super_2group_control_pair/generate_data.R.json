@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c07_super_2group_control_pair/generate_data.R",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "generate_data.R",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "11",
+ "dataUri": "01/4b/014b1f720142c8cae6afea9d7a6d5641c83d50b3f967e713ab09df83b045d35c",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

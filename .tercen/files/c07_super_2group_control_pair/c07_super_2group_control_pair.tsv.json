@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c07_super_2group_control_pair/c07_super_2group_control_pair.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c07_super_2group_control_pair.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "11",
+ "dataUri": "16/92/1692697407b06c95759d4dff212b78add37be5323585b9533eb3ffb16bdea70a",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

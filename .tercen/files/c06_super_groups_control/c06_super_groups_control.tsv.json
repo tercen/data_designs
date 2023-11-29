@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_super_groups_control/c06_super_groups_control.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c06_super_groups_control.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "9",
+ "dataUri": "d5/57/d55730d0ed88132660dc4510244cf1631661136bee17e2077658483dd0e61342",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

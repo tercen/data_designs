@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c06_groups_control_pair/c06_groups_pairing_control.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c06_groups_pairing_control.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "5",
+ "dataUri": "64/0d/640de4dd25c2b466d6ebddd644b4780c667a5f563977650bd781b44c6478e9cd",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}
