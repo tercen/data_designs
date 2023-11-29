@@ -3,7 +3,7 @@
  "id": "4cb64387fce9f6c13b191b37831e23eaf950eac5a7adf9a3c1ffb324cc589757",
  "isDeleted": false,
  "rev": "",
- "description": "",
+ "description": "Measurement, Variable, Observation",
  "name": "c03_simple.tsv",
  "createdBy": "",
  "acl": {
@@ -20,12 +20,22 @@
   "value": ""
  },
  "urls": [],
- "tags": [],
+ "tags": [
+  "data_designs",
+  "PCA",
+  "Log Cutoff",
+  "TSNE"
+ ],
  "meta": [
   {
    "kind": "Pair",
    "key": "SHA256",
    "value": "4cb64387fce9f6c13b191b37831e23eaf950eac5a7adf9a3c1ffb324cc589757"
+  },
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
   }
  ],
  "url": {
