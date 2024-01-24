@@ -5,19 +5,23 @@ The aim is to capture the data structure used by Tercen.
 Each data structure has a name and a folder containing some generic example data.
 The folder name is prefixed with the cardinality (e.g. c03 is cardinality three)
 
-* Variable
-* Observation
-* Measurement
-* Measurement2
-* Series
-* Group
-    + control, treatment
-    + paired
-* Supergroup
-* Batchgroup
-* Filegroup
+Here is a list of the factors used in the data design
 
-Brackets in the name are constraints in the data design, for example c07_super_group(2_control_paired), has 2_control_paired, this is indicates it is constraint to 2 controls and there is a paired design.
+|Factor                     | Examples
+|-------------------------- | ----------- |
+|Variable                   | marker, gene, peptide
+|Observation                | event_id, well_id
+|Measurement                | Signal intensity
+|Measurement2               | QC value
+|Series                     | Compound Concentration
+|Group                      | Condition, Array
+|       control, treatment  | Drug condition (Control and Treatment)
+|Paired                     | Donors pairing factor for Group (i.e. Condition)
+|Supergroup                 | Healthy and Diseased
+|Batchgroup                 | Reagent batch
+|Filegroup                  | Sample fcs file
+
+Brackets in the name are constraints in the data design, for example c07_super_group(2_control_paired), has the constraint of 2_control_paired, this is indicates the design is constraint to 2 groups and has a paired design.
 
 |data design                           |a few example operators
 | -----------------------------------  | ---------------------- |
