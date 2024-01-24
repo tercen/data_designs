@@ -15,8 +15,7 @@ Here is a list of the factors used in the data design and a non exhaustive list 
 |`Measurement`                | Signal intensity
 |`Measurement2`               | QC value
 |`Series`                     | Compound Concentration
-|`Group`                      | Condition, Array
-|       `control`, `treatment`  | Drug condition (Control and Treatment)
+|`Group` with `control`, `treatment` | Drug Condition, multiple drugs or with only a control and treatment
 |`Paired`                     | Donors pairing factor for Group (i.e. Condition)
 |`Supergroup`                 | Healthy and Diseased
 |`Batchgroup`                 | Reagent batch
@@ -24,7 +23,7 @@ Here is a list of the factors used in the data design and a non exhaustive list 
 
 Here are a list of data designs.
 
-|data design                           |a few example operators
+|data design                           |a few example operators/apps
 | -----------------------------------  | ---------------------- |
 |`c03_simple`                            |pca, flowsom, umap, tsne
 |`c04_group`                             |marker_enrichemnt
@@ -38,6 +37,6 @@ Here are a list of data designs.
 |`c06_super_group_series`                |
 |`c06_super_group(2_control)`            |
 |`c06_super_group(control)`              |ttest
-|`c07_super_group(2_control_paired)`     |ttest-paired, lfc
+|`c07_super_group(2_control_paired)`     |ttest-paired, logfoldchange
 |`c08_batch_file_super_group(control)`   |diffcyt
  
