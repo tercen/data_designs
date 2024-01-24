@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "workspace/workspace.R",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "workspace.R",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "4",
+ "dataUri": "a6/b0/a6b0abc54b23ccc179983ac22ab7ac158f4dddf72c7f0bc0d7a6452efe0726a6",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

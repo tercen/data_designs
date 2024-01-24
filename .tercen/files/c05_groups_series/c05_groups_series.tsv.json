@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c05_groups_series/c05_groups_series.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c05_groups_series.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "2",
+ "dataUri": "76/74/7674e7fdcf1374281589aeb4ed84f0b68e514c7bb1d57463be2156a2ccf19959",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

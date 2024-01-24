@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "data_designs.Rproj",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "data_designs.Rproj",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "dataUri": "3a/81/3a81ccc25a62f1a31c7d3404389935ced50831abea5e848408745ad1a1bf6126",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

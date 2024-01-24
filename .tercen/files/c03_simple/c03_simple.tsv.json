@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c03_simple/c03_simple.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c03_simple.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "13",
+ "dataUri": "2f/15/2f157743de3c372360c7a4908814a0bbd379dd29b6f76878a8fcd5e3d82b128d",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

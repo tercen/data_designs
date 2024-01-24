@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "c04_measurement2/c04_simple_measurement2.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c04_simple_measurement2.tsv",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "10",
+ "dataUri": "a0/02/a002033d0e982eccc4b9d3e1043c9497e6d78d0a9aebb2a8d58784d2754df52a",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}

@@ -1,0 +1,44 @@
+{
+ "kind": "FileDocument",
+ "id": "workspace/answer.txt",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "answer.txt",
+ "createdBy": "",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "authors": [],
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "4",
+ "dataUri": "9b/c5/9bc5c103f16aa9fbbec8058e87bdad9c1ccd2884e88804d34a63d798820e2660",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 0
+}
